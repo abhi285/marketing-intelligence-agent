@@ -8,18 +8,22 @@ It includes the SQL scripts, notebooks, documentation, and sample data required 
 **Repository Structure**
 
 **/data**
+
 Contains all CSV files (/data/demo_Data/) used to populate the retail marketing star schema (campaigns, channels, accounts, opportunities, contacts, and supporting dimensions).
 These files are uploaded to an internal Snowflake stage and bulk-loaded into tables during environment setup.
 It also have the pdf files under: /data/unstructured_docs/marketing/ for cortex service
 
 **/docs**
+
 Documentation related to the project, including the full end-to-end runbook describing setup steps, architecture explanation, semantic model design, agent configuration, and governance considerations.
 
 **/notebooks**
+
 Python or Snowflake Notebooks used for walkthroughs, validation, or additional exploration.
 Notebooks demonstrate intermediate steps, troubleshooting, or optional enhancements outside the main SQL setup.
 
 **/sql**
+
 environment_setup.sql – Create the Snowflake Intelligence database, roles, warehouses, and base configuration.
 create_file_format.sql – Define CSV file formats and internal stages.
 marketing_star_schema.sql – Create the marketing star schema (facts + dimensions).
@@ -31,6 +35,7 @@ email_notification_integration.sql – Enable email notifications for tool execu
 cortex_agent.sql – Full agent creation script combining Cortex Analyst, Search Services, and custom tools.
 
 **Getting Started**
+
 Upload the contents of /data to an internal Snowflake stage.
 Run the scripts in the notebook in /notebooks folder in the recommended order.
 Follow the runbook in /docs for semantic view creation, search service setup, and agent deployment.
