@@ -7,7 +7,7 @@ It includes the SQL scripts, notebooks, documentation, and sample data required 
 
 **Repository Structure**
 
-  **/data**
+  * **/data**
   
   Contains all CSV files (/data/demo_Data/) used to populate the retail marketing star schema (campaigns, channels, accounts, opportunities, contacts, and supporting dimensions).
   These files are uploaded to an internal Snowflake stage and bulk-loaded into tables during environment setup.
