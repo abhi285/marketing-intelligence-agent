@@ -1,4 +1,5 @@
-**Retail Marketing Intelligence Agent **
+
+**Retail Marketing Intelligence Agent**
 
 This repository contains all artifacts needed to build a fully operational Retail Marketing Intelligence Agent using Snowflake Cortex Analyst, Cortex Search Service, custom tools, and a marketing-optimized semantic layer.
 It includes the SQL scripts, notebooks, documentation, and sample data required to reproduce the entire demo end-to-end from loading raw datasets to deploying a Snowflake-native agent that answers marketing questions with both structured and unstructured data
