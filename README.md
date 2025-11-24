@@ -13,16 +13,16 @@ It includes the SQL scripts, notebooks, documentation, and sample data required 
   These files are uploaded to an internal Snowflake stage and bulk-loaded into tables during environment setup.
   It also have the pdf files under: /data/unstructured_docs/marketing/ for cortex service
   
-  **/docs**
+  * **/docs**
   
   Documentation related to the project, including the full end-to-end runbook describing setup steps, architecture explanation, semantic model design, agent configuration, and governance considerations.
   
-  **/notebooks**
+  * **/notebooks**
   
   Python or Snowflake Notebooks used for walkthroughs, validation, or additional exploration.
   Notebooks demonstrate intermediate steps, troubleshooting, or optional enhancements outside the main SQL setup.
   
-  **/sql**
+  * **/sql**
   
   environment_setup.sql – Create the Snowflake Intelligence database, roles, warehouses, and base configuration.
   create_file_format.sql – Define CSV file formats and internal stages.
