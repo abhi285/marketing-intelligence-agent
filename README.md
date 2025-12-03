@@ -21,6 +21,11 @@ It includes the SQL scripts, notebooks, documentation, and sample data required 
   
   Python or Snowflake Notebooks used for walkthroughs, validation, or additional exploration.
   Notebooks demonstrate intermediate steps, troubleshooting, or optional enhancements outside the main SQL setup.
+
+  * **/next_Steps**
+  
+  Guidance on how to extend the Marketing Intelligence Agent with your own data, predictive features, and custom tools.
+  Includes recommended enhancements, architecture considerations, and sample code to accelerate adoption.
   
   * **/sql**
   
